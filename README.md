@@ -7,7 +7,7 @@ Ce projet est une version avancée de mon précédent projet AI Digit Recognitio
 ### Approche technique:
  - Entraînement d'un modèle CNN avec PyTorch pour reconnaître 62 classes (chiffres et lettres majuscules/minuscules).
  - Correction des transformations EMNIST (inversion + rotation) pour aligner l’orientation des images.
- - Interface interactive avec Tkinter permettant à l'utilisateur de dessiner un caractère et d'obtenir une prédiction en temps réel.
+ - Interface interactive avec Tkinter permettant à l'utilisateur de dessiner un caractère et d'obtenir une prédiction immédiatement après avoir cliquer sur le button.
 
 ### **Principales bibliothèques utilisées**:
 PyTorch, NumPy, Torchvision, Tkinter, Matplotlib
@@ -20,7 +20,7 @@ Un modèle atteignant 98% de précision.
 ### Technical Approach:
 - Training a CNN model with PyTorch to recognize 62 classes (digits and uppercase/lowercase letters).
 - Fixing EMNIST transformations (flipping + rotation) to properly align image orientation.
-- Interactive interface with Tkinter, allowing users to draw a character and get a real-time prediction.
+- Interactive interface with Tkinter, allowing users to draw a character and get a prediction immediately after clicking the button.
   
 ### Main Libraries Used:
 PyTorch, NumPy, Torchvision, Tkinter, Matplotlib
